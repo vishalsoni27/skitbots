@@ -1,0 +1,175 @@
+version: "2.0"
+
+intents:
+  - greet
+  - goodbye
+  - bot_challenge
+  - mood_great
+  - skit_fullform
+  - why_skit
+  - placement_query
+  - library_query
+  - how_many_departments
+  #------------------------  ECE Departments --------------------------------
+  - ece_introduction
+  - ece_hod
+  - ece_faculties
+  - ece_labs
+  #------------------------  ECE Departments --------------------------------
+  ############################################
+  - clubs_overview
+  - about_s_and_t_club
+  - about_sports_club
+  - about_topaz_club
+  - about_dance_and_music_club
+  - about_toastmasters
+  - about_embeddedclub
+  ############################################
+
+  # ------------------------  admission Process  ---------------------------
+  - admission_process
+  - eligibility_criteria
+  - reservation_availability
+
+  # ------------  About Reap -------------
+  - about_reap
+  - skit_reap_code
+  - reap_registration
+  # ------------  About Reap -------------
+  # --------------------------  admission Process Ends ----------------------
+  #--------------- About fees structure-------------------
+  - fee_structure
+  #--------------- About fees structure-------------------
+
+  #----------------- Seat Matrix---------------------------------
+  - number_of_seats
+  #----------------- Seat Matrix---------------------------------
+
+  #----------------- Contact Details---------------------------------
+  - contact_information
+  #----------------- Contact Details---------------------------------
+
+responses:
+  utter_greet:
+  - text: "Hey! How are you?"
+
+  utter_mood_great_reply:
+  - text: "please continue with your query."
+
+  utter_iamabot:
+  - text: "I am your SKIT assistant, I am a bot created by Vishal and Tanisha. How can I assist you?"
+
+  utter_goodbye:
+  - text: "Good Bye, See you around."
+
+  utter_skit_fullform_reply:
+  - text: "SKIT stands for Swami Keshvanand Institute of Technology, Management & Gramothan. It is affiliated to Rajasthan Technical University, Kota.SKIT has been ranked Number 1 engineering college in Rajasthan for consecutive 4 years by Rajasthan Technical University."
+  
+  utter_why_skit_answer:
+  - text: "SKIT has been ranked Number 1 private engineering college in Rajasthan for consecutive 4 years by Rajasthan Technical University. Today the institute is recognized as one of the centers of academic excellence in Northern India. SKIT is the only private Engineering college in Rajasthan to have more than 75% departments approved by National board of accreditation (NBA)."
+
+  utter_how_many_departments_reply:
+  - text: "In SKIT There are total of 6 engineering branches running. These are Computer Science Engineering, Information and Technology Engineering, Electronics and Communications Engineering, Mechanical Engineering, Electrical Engineering and civil Engineering."
+
+  utter_placement_query_reply:
+  - text: "SKIT has a dedicated training and placement cell and we had total of 800 placements this years and still counting, our top recruiters are HCL, Tata Consultancy services, Cognizant, Infosys and many more tech giants."
+
+  utter_library_query_reply:
+  - text: "Gyandan Resource Centre, the Central Library of SKIT has fully equipped infrastructure with all modern facilities established in a sprawling 975 square meter area. It consists of more than 42949 volumes with 12762 national and international titles. The Central Library also boasts of a highly technological aid of the Digital Library Facilities. library timings are 9 to 4."
+
+  utter_clubs_overview_reply:
+  - text: "We at SKIT understand the importance of extra curricular activities along with the academics and we encourage students to join the various clubs. At skit we have Science and technology club, Sports club, Topaz, Dance and Music, Toastmasters club, Embedded Club and many more."
+
+  utter_about_s_and_t_club_reply:
+  - text: "SCIENCE AND TECHNOLOGY CLUB provide a platform to new pupil of different branch to learn and exhibits their talent in multi-discipline. The club organizes various activities and workshop under experienced trainers. The club also organizes a host of intra & Inter level competition during the session."
+
+  utter_about_sports_club_reply:
+  - text: "We at SKIT understand the importance of sports in developing traits like confidence, leadership and team spirit among the students. The Sports Club at SKIT offers Basketball,Volleyball, Cricket, Football, Badminton, Table Tennis, Tennis etc. Sports Club at SKIT organises several Inter and Intra College Competition regularly."
+
+  utter_about_topaz_club_reply:
+  - text: "TOPAZ stands for 'Tactics to Pursue Ambient Zeal' is the successful Entrepreneurship Cell of SKIT. It conducts events which help students understanding the business better. The activities conducted are highly productive and creates a mindset to solve a problem in a realistic manner. The Cell functions as a team and students get the exposure of working in a team and thus they build their skills."
+
+  utter_about_dance_and_music_club_reply:
+  - text: "Dance and Music are the most joyous embellishments of a creative soul.SKIT’s Dance & Music Club provides a platform to this expression where students are trained in instrumental and vocal music, as well as tap their feet to the tunes of various styles of dancing. The club organizes various training session round the year under the able guidance of experienced music and dance trainers. The club also organizes a host of intra & inter collegiate competitions."
+
+  utter_about_toastmasters_reply:
+  - text: "Welcome to SKIT Toastmasters Club.The love of toastmasters unites toastmasters international is the leadership movement devoted to making effective oral communication a worldwide reality.It helps its members to learn the art of speaking, listening & thinking vital skills that promote self actualization, enhances leadership potential, fosters human understanding & contribute to betterment of mankind."
+
+  utter_about_embeddedclub_reply:
+  - text: "Embedded club is one the core technical club which belongs to the ECE deparment. The club mainly focuses on the embedded technologies such as robotics, micoprocessors, controllers, IOT and several other Embedded traits."
+
+  utter_admission_process_reply:
+  - text: "It is done by Centre for Electronic Governance (CEG), They conduct the centralized counseling through REAP-2021 (Rajasthan Engineering Admission Process) for admissions to 1st year of B.Tech. programme for every academic session. The First Priority is given on basis of 12th percentage and second priority is given to diploma holders."
+
+  utter_eligibility_criteria_reply:
+  - text: "A candidate must have passed Class-12 (10+2) exam with at least 45% marks (40% marks for reserved category) in Physics & Mathematics (compulsory subjects) along with one of the subjects (Chemistry/Biology/Biotechnology/Technical Vocational subject/Computer Science/Information Technology/ Informatics Practices/ Agriculture/ Engineering Graphics/ Business Studies) from Board of Secondary Education Rajasthan (BSER), Ajmer /CBSE/any other recognized Board."
+
+  utter_reservation_availability_reply:
+  - text: "No, the reservation quota is not applicable in private Institutions affiliated to RTU, Kota so SKIT does not offer any reservation to any one."
+
+  utter_about_reap_reply:
+  - text: "Rajasthan Engineering Admission Process (REAP) is conducted by the Centre of Electronic Governance (CEG) Rajasthan, on behalf of Rajasthan Technical University (RTU). It is organised for admissions of eligible candidates to undergraduate engineering programmes leading to Bachelor’s degree in different disciplines of Engineering through counselling. REAP admission procedure is conducted on behalf of Government aided and Private unaided technical institutions of Rajasthan (except BITS Pilani, MNIT Jaipur and other Deemed & Private Universities)."
+
+  utter_skit_reap_code_reply:
+  - text: "The REAP code of SKIT (Swami Keshvanand Institute of Technology, Management & Gramothan), Jaipur is 031"
+
+  utter_reap_registration_reply:
+  - text: "The registration can be done by filling REAP 2021 application form online. Candidates should submit the application form on or before the prescribed last date the website for the same is www.cegreap2020.com"
+
+  utter_fee_structure_reply:
+  - text: "The Total course fee is 90400 and structure is as follows:\n
+  Tuition Fee = 40200, Development Fee = 5000\n
+  registration Fee(per Annum) = 5000\n
+  Caution Money(one time Refundable) = 7500\n"
+
+  utter_number_of_seats_reply: 
+  - text: "To get the Deatiled seat matrix of all of the branches please refer this link:  https://www.skit.ac.in/admissions/b-tech-i-year.html"
+
+  utter_contact_information_reply:
+  - text: "The Contact Informations are as follows:\n
+  Tel: +91-0141- 3500300, 5160400, 2759609, 2752165 & 2752167\n
+  Our Website: https://www.skit.ac.in/ \n
+  E-mail: info@skit.ac.in \n
+  Fax: +91-0141-2759555 \n
+  College Address: Ramnagaria, Jagatpura Jaipur-302 017, Rajasthan, India"
+
+  utter_ece_introduction_reply:
+  - text: "1) The department aims at educating and training students with
+  sound knowledge and awareness in recent developments in
+  electronics and communication technologies. Since its inception,
+  the department broadly emphasizes on high quality education
+  and on design aspects of electronic systems.\n
+  2)The B. Tech. program of the department has been thrice accreditated by NBA.\n
+  3)The department has student chapters of several international and national
+  professional institutions like IEEE, OSA, IETE and ISTE.
+  Students enjoy learning and experimenting in the
+  'Embedded Club' of the department."
+
+  utter_ece_hod_reply:
+  - text: "Dr. Mukesh Arora is the HOD of ECE Department."
+
+  utter_ece_faculties_reply:
+  - text: "ECE department focuses on quality education and has around 30 experience faculties with even P.H.D degrees and all of them are atleast having masters degree in their respective fields."
+
+  utter_ece_labs_reply:
+  - text: "SKIT has Following quality equipped labs: \n
+  • M. Tech (DC) Lab  \n
+  • RF Simulation Lab \n
+  • Wireless communication lab \n
+  • Microwave Engineering Lab \n
+  • Research Center \n
+  • Signal Processing & Image Processing Lab I & II \n
+  • VLSI & optical fiber Lab \n
+  • PCB Fabrication Lab \n
+  • Advanced Microprocessor and Microcontroller Labs \n
+  • Instrumentation & Measurement Lab \n
+  • Electronics Devices & Circuits Lab \n
+  • Industrial Electronics Lab \n
+  • Communication Lab I&II \n
+  • Virtual Lab \n
+  • M. Tech (VLSI) Lab \n
+  • Project Lab I & II \n"
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

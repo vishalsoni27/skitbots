@@ -1,0 +1,478 @@
+version: "2.0"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - hey there
+    - good morning
+    - good evening
+    - good afternoon
+    - morning
+    - evening
+    - afternoon
+    
+###############################################
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - extremely good
+    - so good
+    - so perfect
+    - i am fine
+    - i am good
+    - fine 
+    - doing well
+    - all good
+    - all fine
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+    - ok
+    - good
+    - cool
+    - got it
+    - fine
+    - that helps
+    - alright
+    - that works, thanks
+###############################################
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+    - what is your name?
+    - what should i call you?
+    - what does people call you?
+    - who are you?
+    - what is your identity?
+    - who is that side?
+
+###############################################
+- intent: goodbye
+  examples: |
+    - see you later
+    - see you
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+    - good night
+    - tata bye bye
+    - catch you later
+    - no thanks, good bye.
+    - thats all from my side.
+    - that's it from my side.
+###############################################
+- intent: skit_fullform
+  examples: |
+    - what is the full form of skit?
+    - what does skit stands for?
+    - meaning of skit?
+    - skit?
+    - skit fullform?
+    - full form of skit?
+    - what is skit?
+    - what is skit college?
+###############################################
+- intent: why_skit
+  examples: |
+    - Why skit?
+    - why should i go for skit?
+    - why select skit?
+    - why study at skit?
+    - why take admission at skit?
+    - why opt for skit?
+    - what makes skit special?
+    - skit speaciality?
+    - what makes skit different?
+    - what makes skit best?
+    - why skit is best?
+    - best private engineering college in rajasthan?
+    - Best engineering college in rajasthan?
+    - Why Skit over other Colleges?
+    - why skit better than other colleges?
+    - Pros of Skit?
+    - benefits of skit?
+    - best thing about skit?
+    - what makes skit unique?
+    - why skit is unique?
+    - what makes skit stand different among others?
+    - why skit stands different among others?
+
+#--------------------------------------------- About Departments ------------------
+- intent: how_many_departments
+  examples: |
+    - how many departments are there in skit?
+    - working departments in engineering.
+    - working departments in skit.
+    - name of fields in b.tech, skit.
+    - number of branches in b.tech.
+    - how many engineering branches are there in skit?
+    - branches at skit?
+    - number of branches in skit?
+    - branches in skit?
+    - various departments of skit.
+    - engineering fields in skit?
+    
+#----------------------------------- About Ece Department -----------------------------
+- intent: ece_introduction
+  examples: |
+    - tell me about ECE Department
+    - tell me about Electronics and communication department?
+    - what is ece departments focus?
+    - ECE department introduction
+    - highlight something about ece departmenet
+    - what are the features of ece deparment?
+  
+- intent: ece_hod
+  examples: |
+    - who is the hod of ece Department?
+    - tell me the name of hod of ECE?
+    - who is the head of department of ECE?
+    - what is the name of ECE department HOD?
+    - ECE Hod?
+
+- intent: ece_faculties
+  examples: |
+    - how many faculties are there in ECE Department?
+    - how many faculties are there in ece department?
+    - how many faculties are there in electronics and communication department?
+    - number of faculties in ece department?
+    - how many teachers are there in ece department?
+    - no of factulties in ece department?
+    - no of teachers in ece department?
+
+- intent: ece_labs
+  examples: |
+    - how many labs are there in ECE Department?
+    - how many labs are there in ece department?
+    - how many labs are there in electronics and communication department?
+    - number of labs in ece department?
+    - how manylabs are there in ece department?
+    - no of flabs in ece department?
+    - no oflabs in ece department?
+    - tell me about the ece labs?
+    - features of ece labs
+    - types of ece department labs?
+
+  # -------------------------------- About ECE --------------------------------------------
+
+
+##############################################
+
+############################################
+- intent: placement_query
+  examples: |
+    - tell me about the placements of skit college?
+    - what is the placement status of skit?
+    - what is the placement statistic of skit college?/
+    - placement statistic of skit?
+    - about placement?
+    - number of placement last year?
+    - who are the top recruiters for placement at skit college?
+    - top recruiters for placement?
+    - top placement partners?
+    - main placement partners?
+    - mass placement partners?
+    - about training and placement cell?
+    - t & p cell of skit college?
+
+#------------------------------------- intent about library --------------------------
+- intent: library_query
+  examples: |
+    - about central library?
+    - about skit college library?
+    - does skit has library?
+    - Gyandan Resource Centre (Central Library)?
+    - Gyandan Resource Centre?
+    - facilities in library of skit?
+    - about Gyandan Resource Centre?
+    - skit college digital library?
+    - reading resources at skit?
+    - skit college reading resources?
+    - what are the reading resources at skit college?
+    
+############################################################################################################
+- intent: clubs_overview
+  examples: |
+    - extra curricular activities at skit?
+    - could you please tell me about clubs at skit collge?
+    - what are the various clubs at skit?
+    - what are different clubs at skit college?
+    - extra activities at skit?
+    - co-curricular activities at skit?
+    - about skit clubs?
+    - various participation fields?
+
+- intent: about_s_and_t_club
+  examples: |
+    - could you please tell me about science and technology club more?
+    - science and technology club?
+    - brief about science and technology club?
+    - about science and technology club.
+    - introduction to science and technology club?
+    - more about science and technology club.
+    - details of science and technology club.
+    - could ou please tell me details of science and technology club.
+
+- intent: about_sports_club
+  examples: |
+    - could you please tell me about sports club more?
+    - sports club?
+    - brief about sports club?
+    - about sports club.
+    - introduction to sports club?
+    - more about sports club.
+    - details of sports club.
+    - could ou please tell me details of sports club.
+    - sports club?
+
+- intent: about_topaz_club
+  examples: |
+    - could you please tell me about topaz club more?
+    - topaz club?
+    - brief about topaz club?
+    - about topaz club.
+    - introduction to topaz club?
+    - more about topaz club.
+    - details of topaz club.
+    - could ou please tell me details of topaz club.
+    - topaz club?
+
+- intent: about_dance_and_music_club
+  examples: |
+    - could you please tell me about dance and music club more?
+    - dance and music club?
+    - brief about dance and music club?
+    - about dance and music club.
+    - introduction to dance and music club?
+    - more about dance and music club.
+    - details of dance and music club.
+    - could ou please tell me details of dance and music club.
+    - dance and music club?
+    - dance club?
+    - music club?
+
+- intent: about_toastmasters
+  examples: |
+    - could you please tell me about toastmaster club more?
+    - toastmaster club?
+    - brief about toastmaster club?
+    - about toastmaster club.
+    - introduction to toastmaster club?
+    - more about toastmaster club.
+    - details of toastmaster club.
+    - could ou please tell me details of toastmaster club.
+    - toastmaster club?
+
+- intent: about_embeddedclub
+  examples: |
+    - could you please tell me about embedded club more?
+    - embedded club?
+    - brief about embedded club?
+    - about embedded club.
+    - introduction to embedded club?
+    - more about embedded club.
+    - details of embedded club.
+    - could ou please tell me details of embedded club.
+    - embedded club?
+
+
+#  ---------------------- Intent about Admission process -------------------------
+
+- intent: admission_process
+  examples: |
+    - could you please tell me about the admission process of skit?
+    - what is the admission process for S.K.I.T.
+    - how can i get admission into SKIT?
+    - Admission process?
+    - how can i make it to SKIT?
+    - how can i get my self into skit?
+    - how can i get my son or daughter at skit?
+    - how to take admission in SKIT?
+    - what is the process for admission in skit?
+
+- intent: eligibility_criteria
+  examples: |
+    - What is the eligibility criterion for admission in B.Tech. programme?
+    - eligibility criteria for skit B.tech program?
+    - who are eligible to take admission in skit?
+    - eligibility criteria for admission?
+
+- intent: reservation_availability
+  examples: |
+    - Can the candidate avail the benefit of reservation for admission in B.Tech. programme?
+    - is there any reservation in the admission process?
+    - is reservation available?
+    - can we take admission on the basis of reservation?
+    - can i avail reservation?
+    - is my child allowed to take reservation?
+    - is there any provision for reservation?
+
+  # -------------  About Reap --------------
+
+- intent: about_reap
+  examples: |
+    - what is Reap?
+    - tell me about reap process?
+    - Please share details of Reap / reap/ rajasthan engineering admission process?
+    - could your please tell me abut Reap?
+    - rajasthan engineering admission process?
+    - please brief me about reap?
+    - Reap?
+    - what is Reap process?
+
+- intent: skit_reap_code
+  examples: |
+    - what is the reap code of SKIT?
+    - reap code of skit?
+    - could you please tell me the Reap Code of swami keshvanand institute of technology, management and gramothan?
+    - Rajasthan Engineering admission process code of S.K.I.T?
+    - tell me the reap code of skit?
+    - please share the reap code of skit?
+    - may i know about Rajasthan Engineering admission process code of SKIT? 
+
+
+- intent: reap_registration
+  examples: |
+    - what is the registration process for reap?
+    - how to register for Rajasthan Engineering admission process.
+    - how can i register for Reap?
+    - how to apply for reap?
+    - how to participate in Reap?
+    - Reap registration process?
+    - REAP registration process?
+    - tell me about the registration process for reap.
+  # -------------  About Reap --------------
+
+#-----------------------------fees----------------------------------------------
+- intent: fee_structure
+  examples: |
+    - what is the fee structure for btech first year?
+    - fee structure?
+    - what is the fees to be paid in first year?
+    - amount of the fees?
+    - btech first year fees?
+    - amount of fees to be deposited?
+    - may i know about the fees structure?
+    - tell me about the fees
+    - total money to be paid in first year?
+    - how much is the fees for freshers?
+    - what is the fee amount for first year?
+    - give information about the fee structure
+    - how much is the initial year fees?
+    - fees amount?
+    - how much is the total fee amount?
+    - total course fee in the first year?
+
+#-----------------------------fees----------------------------------------------
+# ----------------------------------seats available---------------------------------
+- intent: number_of_seats
+  examples: |
+    - what are the total number of seats in each branch
+    - total number of seats?
+    - number of seats available?
+    - number of seats in each course 
+    - total seats available?
+    - number of seats in computer science branch
+    - number of seats in cs?
+    - number of seats in computer science engineering
+    - how many seats are available in computer science engineering
+    - number of seats in information technology branch
+    - number of seats in it?
+    - number of seats in  information technology engineering
+    - how many seats are available innformation technology engineering
+    - number of seats in electronics and communication branch
+    - number of seats in ec?
+    - number of seats in electronics and communication engineering
+    - how many seats are available in electronics and communication engineering
+    - number of seats in civil branch
+    - number of seats in civil?
+    - number of seats in civil engineering
+    - how many seats are available in civil engineering
+    - number of seats in electrical branch
+    - number of seats in electrical?
+    - number of seats in electrical engineering
+    - how many seats are available in electrical engineering
+    - number of seats in mechanical branch
+    - number of seats in mechanical?
+    - number of seats in mechanical engineering
+    - how many seats are available in mechanical engineering
+    - please tell me about the number of seats in btech
+    - provide me with the data regarding the number of seats
+    - what is the division in number of seats in each branch
+    - how many seats are available in btech and in each branch
+    - could you tell me the seat matrix for all the engineering branches
+    - seat matrix of all the branches
+    - seat matrix of CSE computer Science branch
+    - seat matrix of ECE Branch
+
+# ----------------------------------seats available---------------------------------
+
+
+#------------------------------ Contaxt Details ------------------------------------
+
+- intent: contact_information
+  examples: |
+    - please provide me with further contact details
+    - how can i contact afterwards?
+    - whom do i contact for additional information?
+    - tell me about the contact information
+    - tell me the contact number of the college
+    - tell me the phone number of the college
+    - tell me website of the college
+    - what is the phone number to contact the college
+    - contact details?
+    - contact information?
+    - how can contact if i have some further query?
+    - whom do i contact if i have some further query?
+    - give me additional contact information
+    - whom to contact for further information?
+    - tell about the contact details
+    - from where do i get more information?
+    - i want detailed information, where do i contact? 
+    - college website link?
+    - college phone number?
+    - contact number?
+    - could you please provide me with contact details
+    - can i have the connects?
+    - can i have the email credentials
+    - contact credentials
+
+#------------------------------ Contact Details ------------------------------------
+
+
+
+#  ---------------------- Intent about Admission process -------------------------
+############################################################################################################
+# - intent: deny
+#   examples: |
+#     - no
+#     - n
+#     - never
+#     - I don't think so
+#     - don't like that
+#     - no way
+#     - not really
+
+
+ 
+

@@ -1,0 +1,154 @@
+version: "2.0"
+
+stories:
+
+# ---------------------   story for asking about the bot's introduction ----------------------
+- story: bot introduction
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_great
+  - action: utter_mood_great_reply
+  - intent: bot_challenge
+  - action: utter_iamabot
+  - intent: goodbye
+  - action: utter_goodbye
+
+
+# -------------------Skit introduction------------------------------------------------------------ 
+
+- story: SKIT introduction
+  steps:
+  - intent: skit_fullform
+  - action: utter_skit_fullform_reply
+  - intent: why_skit
+  - action: utter_why_skit_answer
+
+  #----------------------Department Introductions -----------------------------------------------------
+
+- story: engineering departments overview.
+  steps:
+  - intent: how_many_departments
+  - action: utter_how_many_departments_reply
+
+  # ------------------------- Ece department --------------------------------
+- story: Ece Introduction
+  steps:
+  - intent: ece_introduction
+  - action: utter_ece_introduction_reply
+  - intent: ece_hod
+  - action: utter_ece_hod_reply
+  - intent: ece_faculties
+  - action: utter_ece_faculties_reply
+  - intent: ece_labs
+  - action: utter_ece_labs_reply
+
+  #---------------------- Placement story -------------------------------
+
+- story: placement scenario
+  steps:
+  - intent: placement_query
+  - action: utter_placement_query_reply
+
+#----------------------------- Library story -------------------------
+- story: about library
+  steps:
+  - intent: library_query
+  - action: utter_library_query_reply
+
+#------------------ about clubs --------------------------------------------------------------------------------
+#------------------ overview -----------------------------
+- story: about extra activities and clubs of college
+  steps: 
+  - intent: clubs_overview
+  - action: utter_clubs_overview_reply
+
+#-------------- Science and technology club ----------------
+
+- story: about science and tech club
+  steps:
+  - intent: about_s_and_t_club
+  - action: utter_about_s_and_t_club_reply
+
+#-------------- sports club---------------- ----------------
+
+- story: sports club
+  steps:
+  - intent: about_sports_club
+  - action: utter_about_sports_club_reply
+
+#-------------- topaz club--------------------------------
+
+- story:  topaz club
+  steps:
+  - intent: about_topaz_club
+  - action: utter_about_topaz_club_reply
+
+#-------------- about_dance_and_music_club --------------------------------
+
+- story:  dance and music club
+  steps:
+  - intent: about_dance_and_music_club
+  - action: utter_about_dance_and_music_club_reply
+
+#-------------- about toastmasters club --------------------------------
+
+- story:  about toastmasters club
+  steps:
+  - intent: about_toastmasters
+  - action: utter_about_toastmasters_reply
+
+#---------------------- about Embedded club --------------------------
+- story: about embedded club
+  steps:
+  - intent: about_embeddedclub
+  - action: utter_about_embeddedclub_reply
+
+#----------------- About Clubs --------------------------------------------------------
+
+
+# -------------------- Admission Process--------------------------------------
+- story: About admission process
+  steps:
+  - intent: admission_process
+  - action: utter_admission_process_reply
+  - intent: eligibility_criteria
+  - action: utter_eligibility_criteria_reply
+  - intent: reservation_availability
+  - action: utter_reservation_availability_reply
+
+- story: About Reap
+  steps:
+  - intent: about_reap
+  - action: utter_about_reap_reply
+  - intent: skit_reap_code
+  - action: utter_skit_reap_code_reply
+  - intent: reap_registration
+  - action: utter_reap_registration_reply
+
+# ----------------- -- Admission Process--------------------------------------
+
+
+
+#-------------------------- fees---------------------------------
+- story: About Fees 
+  steps:
+  - intent: fee_structure
+  - action: utter_fee_structure_reply
+#-------------------------- fees---------------------------------
+
+#----------------- seat matrix -------------------------------
+
+- story: About Seat Matrix
+  steps:
+  - intent: number_of_seats
+  - action: utter_number_of_seats_reply
+#----------------- seat matrix -------------------------------
+
+
+#---------------------- Contact Information -------------------------
+- story: contact_information
+  steps:
+  - intent: contact_information
+  - action: utter_contact_information_reply
+#---------------------- Contact Information -------------------------
